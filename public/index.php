@@ -44,8 +44,7 @@ if ($method === 'POST') {
     }
 
     http_response_code(200);
-} 
-
+} //
 $success = $method === 'GET' && ($_GET['success'] ?? '') === '1';
 ?>
 <!DOCTYPE html>

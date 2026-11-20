@@ -10,7 +10,6 @@ function validate_email(string $v): bool
 {
     return filter_var($v, FILTER_VALIDATE_EMAIL) !== false;
 }
-
 function validate_length(string $v, int $min, int $max): bool
 {
     $length = mb_strlen($v, 'UTF-8');
