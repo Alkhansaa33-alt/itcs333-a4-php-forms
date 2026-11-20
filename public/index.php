@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+declare(strict_types=1); 
 
 require_once __DIR__ . '/../src/validate.php';
 
@@ -79,7 +79,7 @@ $success = $method === 'GET' && ($_GET['success'] ?? '') === '1';
           <span class="error"><?= escape_html($errors['email']) ?></span>
         <?php endif; ?>
       </p>
-
+,
       <p>
         <label for="message">Message</label>
         <textarea id="message" name="message"><?= escape_html($values['message']) ?></textarea>
