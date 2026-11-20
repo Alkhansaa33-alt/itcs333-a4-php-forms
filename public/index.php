@@ -79,7 +79,7 @@ $success = $method === 'GET' && ($_GET['success'] ?? '') === '1';
           <span class="error"><?= escape_html($errors['email']) ?></span>
         <?php endif; ?>
       </p>
-,
+, b
       <p>
         <label for="message">Message</label>
         <textarea id="message" name="message"><?= escape_html($values['message']) ?></textarea>
